@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T03:08:18.410Z" agent="5.0 (Windows)" version="17.4.6" etag="iP6zQ_luHta7cMGxrKt6" type="github"><diagram id="FHjK9ut_8ZI0KoO9mTxq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-21T03:25:16.930Z" agent="5.0 (Windows)" etag="K3cPgN1u7ycE8OLdDyzt" version="17.4.6" type="github">
+  <diagram id="FHjK9ut_8ZI0KoO9mTxq" name="Page-1">
+    <mxGraphModel dx="539" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DZTvUg-BxIdOKYBythqb-1" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="530" width="95" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-4" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Redis-Instance0&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-8" value="&lt;div align=&quot;center&quot;&gt;RedisService&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="145" y="205" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-9" value="SetKey" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="155" y="215" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-10" value="GetKey" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="190" y="215" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-11" value="&lt;div align=&quot;justify&quot;&gt;Persistent Redis&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Volume/folder&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="370" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-12" value="" style="endArrow=none;html=1;rounded=0;fontSize=8;" edge="1" parent="1" source="DZTvUg-BxIdOKYBythqb-11" target="DZTvUg-BxIdOKYBythqb-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="360" as="sourcePoint" />
+            <mxPoint x="510" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="5" y="190" as="sourcePoint" />
+            <mxPoint x="845" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-15" value="SET KEY QUEUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;labelBackgroundColor=none;" vertex="1" connectable="0" parent="DZTvUg-BxIdOKYBythqb-13">
+          <mxGeometry x="-0.6364" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZTvUg-BxIdOKYBythqb-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="1" target="DZTvUg-BxIdOKYBythqb-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="190" as="sourcePoint" />
+            <mxPoint x="380" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
